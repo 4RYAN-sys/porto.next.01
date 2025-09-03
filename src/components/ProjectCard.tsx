@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { FiGithub, FiExternalLink } from 'react-icons/fi';
 // components/ProjectCard.tsx
-import { Project } from '@/data/projects'; // Ganti dari '@/data/projects'
+import { Project } from '@/data/project'; // ✅ sesuai file lu
 
 interface ProjectCardProps {
   project: Project;
@@ -36,7 +36,10 @@ export default function ProjectCard({ project, index }: ProjectCardProps) {
         
         <div className="flex flex-wrap gap-2 mb-4">
           {project.tech.map((tech) => (
-            <span key={tech} className="px-2 py-1 bg-blue-500/20 text-blue-300 text-sm rounded">
+            <span
+              key={tech}
+              className="px-2 py-1 bg-blue-500/20 text-blue-300 text-sm rounded"
+            >
               {tech}
             </span>
           ))}
