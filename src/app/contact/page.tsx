@@ -15,7 +15,7 @@ export default function Contact() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     console.log('Form submitted:', formData);
-    alert('Pesan terkirim! (Check console)');
+    alert('Pesan terkirim!');
     setFormData({ name: '', email: '', message: '' });
   };
 
@@ -106,7 +106,7 @@ export default function Contact() {
                 
                 <a  href="https://tiktok.com/@tama.go26" target="_blank" className="flex items-center gap-3 text-gray-300 hover:text-blue-400">
                   <SiTiktok className="text-xl" />
-                  LinkedIn
+                  TikTok
                 </a>
                 
                 <a href="https://instagram.com/aryan_pratama_susanto" target="_blank" className="flex items-center gap-3 text-gray-300 hover:text-blue-400">

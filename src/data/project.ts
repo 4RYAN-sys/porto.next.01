@@ -12,74 +12,29 @@ export interface Project {
 export const projects: Project[] = [
   {
     id: 1,
-    name: "E-Commerce Platform",
-    description: "Full-stack e-commerce dengan Next.js dan Stripe integration",
-    github: "https://github.com/username/ecommerce",
-    demo: "https://ecommerce-demo.vercel.app",
-    image: "/project-images/ecommerce.jpg",
-    tech: ["Next.js", "TypeScript", "Tailwind", "Stripe"]
+    name: "First Portofolio",
+    description: "Portofolio pertama yang sederhana  ",
+    github: "https://github.com/4RYAN-sys/hahahaha.git",
+    demo: "https://slow-bro.vercel.app/",
+    image: "/project-images/project1.jpg",
+    tech: ["Javascript", "HTML", "CSS"]
   },
   {
     id: 2,
-    name: "Task Management App",
-    description: "Aplikasi manajemen tugas dengan drag-and-drop feature",
-    github: "https://github.com/username/task-app",
-    demo: "https://task-app.vercel.app",
-    image: "/project-images/task.jpg",
-    tech: ["React", "TypeScript", "Tailwind", "Framer Motion"]
+    name: "Web Biodata ",
+    description: "Web sederhana untuk menampilkan biodata",
+    github: "https://github.com/4RYAN-sys/New.git",
+    demo: "https://new-seven-oatt.vercel.app/",
+    image: "/project-images/project2.jpg",
+    tech: ["HTML", "CSS",]
   },
   {
     id: 3,
-    name: "Weather Dashboard",
-    description: "Dashboard cuaca real-time dengan data visualization",
-    github: "https://github.com/username/weather",
-    demo: "https://weather-demo.vercel.app",
-    image: "/project-images/weather.jpg",
-    tech: ["Next.js", "Chart.js", "API Integration"]
+    name: " Portofolio React",
+    description: "Project SPA react pertama",
+    github: "https://github.com/4RYAN-sys/portofolio-react.git",
+    demo: "https://portofolioaryan.netlify.app/",
+    image: "/project-images/project3.jpg",
+    tech: ["React+vite", "JavaScript"]
   },
-  {
-    id: 4,
-    name: "Social Media Clone",
-    description: "Clone Instagram dengan fitur posting dan komentar",
-    github: "https://github.com/username/social-clone",
-    demo: "https://social-clone.vercel.app",
-    image: "/project-images/social.jpg",
-    tech: ["Next.js", "Firebase", "Tailwind"]
-  },
-  {
-    id: 5,
-    name: "Portfolio Generator",
-    description: "Tools untuk generate portfolio otomatis",
-    github: "https://github.com/username/portfolio-gen",
-    demo: "https://portfolio-gen.vercel.app",
-    image: "/project-images/portfolio.jpg",
-    tech: ["Next.js", "TypeScript", "AI Integration"]
-  },
-  {
-    id: 6,
-    name: "Recipe Finder App",
-    description: "Aplikasi pencarian resep dengan filter kategori",
-    github: "https://github.com/username/recipe-finder",
-    demo: "https://recipe-finder.vercel.app",
-    image: "/project-images/recipe.jpg",
-    tech: ["React", "API", "Tailwind"]
-  },
-  {
-    id: 7,
-    name: "Chat Application",
-    description: "Real-time chat dengan WebSocket",
-    github: "https://github.com/username/chat-app",
-    demo: "https://chat-app.vercel.app",
-    image: "/project-images/chat.jpg",
-    tech: ["Next.js", "Socket.io", "MongoDB"]
-  },
-  {
-    id: 8,
-    name: "Expense Tracker",
-    description: "Aplikasi tracking pengeluaran dengan grafik",
-    github: "https://github.com/username/expense-tracker",
-    demo: "https://expense-tracker.vercel.app",
-    image: "/project-images/expense.jpg",
-    tech: ["Next.js", "Chart.js", "LocalStorage"]
-  }
 ];
