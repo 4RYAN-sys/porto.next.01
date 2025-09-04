@@ -8,15 +8,16 @@ import {
   FaReact, 
   FaNodeJs,
   FaGitAlt,
-  FaDocker,
-  FaAws
+  FaJava,
+  
 } from 'react-icons/fa';
 import { 
   SiNextdotjs, 
   SiTailwindcss, 
   SiTypescript,
-  SiMongodb,
-  SiPostgresql
+  SiGithub,
+  SiFlutter,
+  SiCanva,
 } from 'react-icons/si';
 
 const skills = [
@@ -28,11 +29,11 @@ const skills = [
   { name: 'Next.js', icon: SiNextdotjs, color: 'text-white' },
   { name: 'Tailwind CSS', icon: SiTailwindcss, color: 'text-cyan-300' },
   { name: 'Node.js', icon: FaNodeJs, color: 'text-green-500' },
-  { name: 'MongoDB', icon: SiMongodb, color: 'text-green-400' },
-  { name: 'PostgreSQL', icon: SiPostgresql, color: 'text-blue-400' },
+  { name: 'Github', icon: SiGithub, color: 'text-green-400' },
+  { name: 'Flutter', icon: SiFlutter, color: 'text-blue-400' },
   { name: 'Git', icon: FaGitAlt, color: 'text-red-500' },
-  { name: 'Docker', icon: FaDocker, color: 'text-blue-300' },
-  { name: 'AWS', icon: FaAws, color: 'text-orange-400' },
+  { name: 'Java', icon: FaJava, color: 'text-blue-300' },
+  { name: 'Canva', icon: SiCanva, color: 'text-orange-400' },
 ];
 
 export default function Skills() {

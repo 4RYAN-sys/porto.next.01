@@ -8,13 +8,13 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           <p className="text-gray-400">
-            © {currentYear} Nama Kamu. All rights reserved.
+            © {currentYear} Aryan Pratama Susanto. All rights reserved.
           </p>
 
           <div className="mt-3 flex justify-center items-center gap-6">
             {/* GitHub */}
             <a
-              href="https://github.com/username"
+              href="https://github.com/4RYAN-sys"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 text-blue-400 hover:text-blue-300 transition-colors"
@@ -25,7 +25,7 @@ export default function Footer() {
 
             {/* WhatsApp */}
             <a
-              href="https://wa.me/6281234567890"  // ganti nomor kamu
+              href="https://wa.me/6285746868762"  
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 text-blue-400 hover:text-blue-300 transition-colors"
@@ -36,7 +36,7 @@ export default function Footer() {
 
             {/* Instagram */}
             <a
-              href="https://instagram.com/username"
+              href="https://instagram.com/aryan_pratama_susanto"  
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 text-blue-400 hover:text-blue-300 transition-colors"
