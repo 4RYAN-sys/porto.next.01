@@ -2,7 +2,8 @@
 
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { FiMail, FiPhone, FiGithub, FiLinkedin, FiInstagram } from 'react-icons/fi';
+import { FiMail, FiPhone, FiGithub, FiInstagram } from 'react-icons/fi';
+import { SiTiktok } from 'react-icons/si';
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -103,12 +104,12 @@ export default function Contact() {
                   GitHub
                 </a>
                 
-                <a href="https://linkedin.com/in/username" target="_blank" className="flex items-center gap-3 text-gray-300 hover:text-blue-400">
-                  <FiLinkedin className="text-xl" />
+                <a  href="https://tiktok.com/@tama.go26" target="_blank" className="flex items-center gap-3 text-gray-300 hover:text-blue-400">
+                  <SiTiktok className="text-xl" />
                   LinkedIn
                 </a>
                 
-                <a href="https://instagram.com/username" target="_blank" className="flex items-center gap-3 text-gray-300 hover:text-blue-400">
+                <a href="https://instagram.com/aryan_pratama_susanto" target="_blank" className="flex items-center gap-3 text-gray-300 hover:text-blue-400">
                   <FiInstagram className="text-xl" />
                   Instagram
                 </a>
