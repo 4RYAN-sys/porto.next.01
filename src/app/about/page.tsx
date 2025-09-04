@@ -15,18 +15,16 @@ export default function About() {
         <div className="bg-gray-900/50 border border-blue-500/20 rounded-lg p-8">
           <h2 className="text-2xl font-semibold text-blue-300 mb-4">Biodata</h2>
           <ul className="space-y-2 text-gray-300">
-            <li><strong>Nama:</strong> [Nama Lengkap Kamu]</li>
-            <li><strong>Sekolah:</strong> [Nama Sekolah]</li>
-            <li><strong>Jurusan:</strong> [Jurusan Kamu]</li>
-            <li><strong>Email:</strong> [email@example.com]</li>
+            <li><strong>Nama:</strong>Aryan Pratama Susanto</li>
+            <li><strong>Sekolah:</strong>SMK NEGERI 8 MALANG</li>
+            <li><strong>Jurusan:</strong>RPL(Rekayasa Perangkat Lunak)</li>
+            <li><strong>Email:</strong> aryantama@gmail.com</li>
           </ul>
 
           <h2 className="text-2xl font-semibold text-blue-300 mt-8 mb-4">Motivasi Belajar Coding</h2>
           <p className="text-gray-300 leading-relaxed">
-            Saya mulai belajar coding karena [ceritakan motivasi kamu di sini].
-            Teknologi yang membuat saya tertarik adalah bagaimana kita bisa membangun
-            sesuatu yang berguna dari sekadar baris kode. Setiap hari saya terus
-            belajar dan mengembangkan skill saya untuk menjadi developer yang lebih baik.
+         Awalnya saya penasaran dengan koding karena sering fyp. Jadi saya masuk jurusan RPl dan mulai belajar koding. 
+         Saya ingin menjadi seorang ahli dibidang teknologi.
           </p>
         </div>
       </motion.div>

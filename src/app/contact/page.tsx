@@ -88,17 +88,17 @@ export default function Contact() {
               <h3 className="text-xl font-semibold text-blue-300 mb-4">Contact Info</h3>
               
               <div className="space-y-4">
-                <a href="mailto:email@example.com" className="flex items-center gap-3 text-gray-300 hover:text-blue-400">
+                <a href="mailto:dragoniczero229@gmail.com" className="flex items-center gap-3 text-gray-300 hover:text-blue-400">
                   <FiMail className="text-xl" />
-                  email@example.com
+                  email
                 </a>
                 
-                <a href="https://wa.me/628xxxxxx" className="flex items-center gap-3 text-gray-300 hover:text-blue-400">
+                <a href="https://wa.me/085746868762" className="flex items-center gap-3 text-gray-300 hover:text-blue-400">
                   <FiPhone className="text-xl" />
-                  +62 8xx-xxxx-xxxx
+                  phone
                 </a>
                 
-                <a href="https://github.com/username" target="_blank" className="flex items-center gap-3 text-gray-300 hover:text-blue-400">
+                <a href="https://github.com/4RYAN-sys" target="_blank" className="flex items-center gap-3 text-gray-300 hover:text-blue-400">
                   <FiGithub className="text-xl" />
                   GitHub
                 </a>

@@ -20,7 +20,7 @@ export default function Home() {
           className="mb-8"
         >
           <Image
-            src="/profile.jpg"
+            src="/profile.jpeg"
             alt="Profile"
             width={200}
             height={200}
@@ -34,7 +34,7 @@ export default function Home() {
           transition={{ delay: 0.3 }}
           className="text-5xl font-bold text-blue-400 mb-4"
         >
-          Nama Lengkap Kamu
+          Aryan Pratama Susanto
         </motion.h1>
 
         <motion.p
