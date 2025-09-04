@@ -21,7 +21,7 @@ export default function About() {
               <li><strong>Nama:</strong> Aryan Pratama Susanto</li>
               <li><strong>Sekolah:</strong> SMK Negeri 8 Malang</li>
               <li><strong>Jurusan:</strong> RPL (Rekayasa Perangkat Lunak)</li>
-              <li><strong>Email:</strong> aryantama@gmail.com</li>
+              <li><strong>Umur:</strong> 16 otw 17 Tahun</li>
             </ul>
           </div>
 
