@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { FiGithub, FiExternalLink } from 'react-icons/fi';
 // components/ProjectCard.tsx
-import { Project } from '@/data/project'; // ✅ sesuai file lu
+import { Project } from '@/data/project'; 
 
 interface ProjectCardProps {
   project: Project;

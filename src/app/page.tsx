@@ -41,9 +41,9 @@ export default function Home() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.4 }}
-          className="text-xl text-gray-300 mb-8"
+          className="text-xl text-gray-800 dark:text-gray-300 mb-8"
         >
-          Web Developer | UI/UX Enthusiast
+          Web Developer | Siswa RPL
         </motion.p>
 
         <motion.div
