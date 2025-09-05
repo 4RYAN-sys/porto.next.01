@@ -1,7 +1,6 @@
 'use client';
 
 import Image from 'next/image';
-import Link from 'next/link';
 import { motion } from 'framer-motion';
 
 export default function Home() {
@@ -13,6 +12,7 @@ export default function Home() {
         transition={{ duration: 0.5 }}
         className="text-center"
       >
+        {/* Foto profil */}
         <motion.div
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
@@ -28,6 +28,7 @@ export default function Home() {
           />
         </motion.div>
 
+        {/* Nama */}
         <motion.h1
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -37,34 +38,15 @@ export default function Home() {
           Aryan Pratama Susanto
         </motion.h1>
 
+        {/* Tagline */}
         <motion.p
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.4 }}
-          className="text-xl text-gray-800 dark:text-gray-300 mb-8"
+          className="text-xl text-gray-800 dark:text-gray-300"
         >
           Web Developer | Siswa RPL
         </motion.p>
-
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.5 }}
-          className="space-x-4"
-        >
-          <Link
-            href="/about"
-            className="px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition-colors"
-          >
-            About Me
-          </Link>
-          <Link
-            href="/projects"
-            className="px-6 py-3 border border-blue-600 text-blue-400 hover:bg-blue-600/10 rounded-lg transition-colors"
-          >
-            My Projects
-          </Link>
-        </motion.div>
       </motion.div>
     </div>
   );
