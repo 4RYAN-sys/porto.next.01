@@ -30,7 +30,7 @@ export default function Contact() {
             <ContactLink
               icon={<FiPhone className="text-xl" />}
               label="WhatsApp"
-              href="https://wa.me/+625746868762"
+              href="https://wa.me/+6285746868762"
             />
             <ContactLink
               icon={<FiGithub className="text-xl" />}
