@@ -37,16 +37,8 @@ export default function Contact() {
               label="GitHub"
               href="https://github.com/4RYAN-sys"
             />
-            <ContactLink
-              icon={<SiTiktok className="text-xl" />}
-              label="TikTok"
-              href="https://tiktok.com/@tama.go26"
-            />
-            <ContactLink
-              icon={<FiInstagram className="text-xl" />}
-              label="Instagram"
-              href="https://instagram.com/aryan_pratama_susanto"
-            />
+            
+
           </div>
         </div>
       </motion.div>
