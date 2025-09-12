@@ -58,7 +58,7 @@ export default function ProjectCard({ project, index }: ProjectCardProps) {
             target="_blank"
             className="flex items-center gap-2 text-gray-300 hover:text-blue-400 transition-colors"
           >
-            <FiExternalLink /> Demo
+            <FiExternalLink /> Visit
           </Link>
         </div>
       </div>
