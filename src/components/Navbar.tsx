@@ -13,11 +13,12 @@ export default function Navbar() {
     { href: '/about', label: 'About' },
     { href: '/projects', label: 'Projects' },
     { href: '/skills', label: 'Skills' },
+    { href: '/testimonials', label: 'Testimonials' },
     { href: '/contact', label: 'Contact' },
   ];
 
   return (
-    <motion.nav 
+    <motion.nav
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       className="fixed top-0 w-full bg-black/50 backdrop-blur-md z-50 border-b border-blue-500/20"
@@ -50,7 +51,7 @@ export default function Navbar() {
               className="ml-4 text-gray-300 hover:text-blue-400"
             >
               <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} 
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
                   d={isOpen ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16M4 18h16"} />
               </svg>
             </button>

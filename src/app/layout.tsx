@@ -3,12 +3,20 @@ import { Inter } from 'next/font/google';
 import './globals.css';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import ScrollToTop from '@/components/ScrollToTop';
 
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Portfolio - Aryan',
-  description: 'Web Developer Portfolio',
+  title: 'Portfolio - Aryan Pratama Susanto',
+  description: 'Web Developer Portfolio showcasing modern web development skills with React, Next.js, and more. Explore my projects and get in touch.',
+  keywords: 'web developer, portfolio, React, Next.js, JavaScript, TypeScript, frontend developer',
+  authors: [{ name: 'Aryan Pratama Susanto' }],
+  openGraph: {
+    title: 'Portfolio - Aryan Pratama Susanto',
+    description: 'Web Developer Portfolio showcasing modern web development skills',
+    type: 'website',
+  },
 };
 
 export default function RootLayout({
@@ -24,6 +32,7 @@ export default function RootLayout({
           {children}
         </main>
         <Footer />
+        <ScrollToTop />
       </body>
     </html>
   );
