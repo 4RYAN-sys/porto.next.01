@@ -37,4 +37,13 @@ export const projects: Project[] = [
     image: "/project-image/project3.jpg",
     tech: ["React+vite", "JavaScript"]
   },
+ {
+    id: 3,
+    name: " Sarpras App",
+    description: "Project Aplikasi Sarpras Sekolah",
+    github: "https://github.com/4RYAN-sys/sarprass-app.git",
+    demo: "https://aplikasi-sarpras.netlify.app/",
+    image: "/project-image/project4.png",
+    tech: ["Next.js", "TypeScript", "TailwindCSS"]
+  },
 ];
